@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34545a" />
+      <stop offset="1" stop-color="#78918d" />
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#183135" flood-opacity="0.42" />
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#background)" />
+
+  <g fill="none" stroke="#e7ede5" stroke-width="3" opacity="0.12">
+    <path d="M-80 88C93 13 181 42 300 123s225 89 363 17 235-88 381-32 218 45 356-24" />
+    <path d="M-70 151c170-74 265-46 379 29s217 83 353 15 243-83 386-26 213 47 342-16" />
+    <path d="M-88 219c173-68 264-43 377 28s225 79 362 14 240-74 384-20 220 48 353-13" />
+    <path d="M-62 291c158-63 247-42 356 23s224 74 354 15 245-69 388-18 215 44 344-9" />
+    <path d="M-77 365c166-58 251-40 360 20s222 68 354 14 243-61 382-16 221 43 354-6" />
+    <path d="M-65 443c154-54 242-38 346 17s220 62 350 13 244-53 381-13 215 40 348-3" />
+    <path d="M-84 526c165-50 246-37 351 14s218 58 348 12 242-47 377-11 218 38 354 1" />
+  </g>
+
+  <image href="relief-icon.png" x="112" y="136" width="368" height="368" filter="url(#shadow)" />
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+    <text x="560" y="286" fill="#f7f2e7" font-size="112" font-weight="700" letter-spacing="-4">Relief</text>
+    <text x="566" y="358" fill="#e9eee8" font-size="38" font-weight="500">Understand code changes</text>
+    <text x="566" y="410" fill="#e9eee8" font-size="38" font-weight="500">and their dependents.</text>
+    <text x="568" y="474" fill="#d5dfda" font-size="23" font-weight="500" letter-spacing="1.5">FOR macOS</text>
+  </g>
+</svg>
